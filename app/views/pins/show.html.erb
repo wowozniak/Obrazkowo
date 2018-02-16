@@ -7,6 +7,9 @@
       <%= @pin.description %>
     </p>
   </div>
-  <div class="panel-footer"><%= link_to 'Edycja', edit_pin_path(@pin) %> |
+  <div class="panel-footer">
+    <% if @pin.user == current_user %>
+      <%= link_to 'Edycja', edit_pin_path(@pin) %> |
+    <% end %>
     <%= link_to 'Wstecz', pins_path %></div>
 </div>
