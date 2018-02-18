@@ -11,6 +11,10 @@ gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'devise', '~> 3.5.2'
 gem 'paperclip', '4.3.0'
 gem 'aws-sdk', '~> 3.0'
+gem 'masonry-rails', '~> 0.2.4'
+gem 'jquery-turbolinks'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
  gem 'byebug', '~> 5.0.0'
